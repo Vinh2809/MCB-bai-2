@@ -28,104 +28,17 @@ Project File Date:  03/07/2025
 *** Using Compiler 'V6.14', folder: 'C:\Keil_V5\ARM\ARMCLANG\Bin'
 Rebuild target 'Target 1'
 assembling startup_stm32f10x_md.s...
-RTE/Device/STM32F103C8/system_stm32f10x.c(166): warning: no previous extern declaration for non-static variable 'AHBPrescTable' [-Wmissing-variable-declarations]
-__I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
-            ^
-RTE/Device/STM32F103C8/system_stm32f10x.c(166): note: declare 'static' if the variable is not intended to be used outside of this translation unit
-__I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
-    ^
-1 warning generated.
-compiling system_stm32f10x.c...
-C:/Users/Tuyen laptop/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/misc.c(131): warning: implicit conversion loses integer precision: 'uint32_t' (aka 'unsigned int') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
-    NVIC->IP[NVIC_InitStruct->NVIC_IRQChannel] = tmppriority;
-                                               ~ ^~~~~~~~~~~
-1 warning generated.
 compiling misc.c...
-main.c(1): warning: In file included from...
-C:/Users/Tuyen laptop/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(8347): warning: In file included from...
-./RTE/Device/STM32F103C8\stm32f10x_conf.h(87): warning: In file included from...
-C:/Users/Tuyen laptop/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc\stm32f10x_tim.h(50): warning: padding size of 'TIM_TimeBaseInitTypeDef' with 1 byte to alignment boundary [-Wpadded]
-typedef struct
-        ^
-main.c(1): warning: In file included from...
-C:/Users/Tuyen laptop/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(8347): warning: In file included from...
-./RTE/Device/STM32F103C8\stm32f10x_conf.h(90): warning: In file included from...
-C:/Users/Tuyen laptop/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc\stm32f10x_usart.h(49): warning: padding size of 'USART_InitTypeDef' with 2 bytes to alignment boundary [-Wpadded]
-typedef struct
-        ^
-main.c(215): warning: no newline at end of file [-Wnewline-eof]
-}
- ^
-main.c(17): warning: no previous extern declaration for non-static variable 'u16Tim' [-Wmissing-variable-declarations]
-uint16_t u16Tim;
-         ^
-main.c(17): note: declare 'static' if the variable is not intended to be used outside of this translation unit
-uint16_t u16Tim;
-^
-main.c(18): warning: no previous extern declaration for non-static variable 'u8Buff' [-Wmissing-variable-declarations]
-uint8_t u8Buff[5];
-        ^
-main.c(18): note: declare 'static' if the variable is not intended to be used outside of this translation unit
-uint8_t u8Buff[5];
-^
-main.c(19): warning: no previous extern declaration for non-static variable 'u8CheckSum' [-Wmissing-variable-declarations]
-uint8_t u8CheckSum;
-        ^
-main.c(19): note: declare 'static' if the variable is not intended to be used outside of this translation unit
-uint8_t u8CheckSum;
-^
-main.c(20): warning: no previous extern declaration for non-static variable 'i' [-Wmissing-variable-declarations]
-unsigned int i, j;
-             ^
-main.c(20): note: declare 'static' if the variable is not intended to be used outside of this translation unit
-unsigned int i, j;
-^
-main.c(20): warning: no previous extern declaration for non-static variable 'j' [-Wmissing-variable-declarations]
-unsigned int i, j;
-                ^
-main.c(20): note: declare 'static' if the variable is not intended to be used outside of this translation unit
-unsigned int i, j;
-^
-8 warnings generated.
-compiling main.c...
-compiling stm32f10x_rcc.c...
-C:/Users/Tuyen laptop/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_i2c.c(22): warning: In file included from...
-C:/Users/Tuyen laptop/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc\stm32f10x_i2c.h(49): warning: padding size of 'I2C_InitTypeDef' with 2 bytes to alignment boundary [-Wpadded]
-typedef struct
-        ^
-1 warning generated.
-compiling stm32f10x_i2c.c...
+compiling system_stm32f10x.c...
 compiling stm32f10x_gpio.c...
-C:/Users/Tuyen laptop/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_usart.c(22): warning: In file included from...
-C:/Users/Tuyen laptop/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc\stm32f10x_usart.h(49): warning: padding size of 'USART_InitTypeDef' with 2 bytes to alignment boundary [-Wpadded]
-typedef struct
-        ^
-C:/Users/Tuyen laptop/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_usart.c(1043): warning: implicit conversion loses integer precision: 'int' to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
-  itmask = ((uint16_t)0x01 << (uint16_t)bitpos);
-         ~  ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
-2 warnings generated.
+compiling main.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_rcc.c...
 compiling stm32f10x_usart.c...
-C:/Users/Tuyen laptop/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(22): warning: In file included from...
-C:/Users/Tuyen laptop/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc\stm32f10x_tim.h(50): warning: padding size of 'TIM_TimeBaseInitTypeDef' with 1 byte to alignment boundary [-Wpadded]
-typedef struct
-        ^
-C:/Users/Tuyen laptop/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(725): warning: implicit conversion loses integer precision: 'unsigned int' to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
-             TIM_BDTRInitStruct->TIM_Break | TIM_BDTRInitStruct->TIM_BreakPolarity |
-             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-C:/Users/Tuyen laptop/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1982): warning: implicit conversion loses integer precision: 'int' to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
-  tmp = CCER_CCE_Set << TIM_Channel;
-      ~ ~~~~~~~~~~~~~^~~~~~~~~~~~~~
-C:/Users/Tuyen laptop/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2012): warning: implicit conversion loses integer precision: 'int' to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
-  tmp = CCER_CCNE_Set << TIM_Channel;
-      ~ ~~~~~~~~~~~~~~^~~~~~~~~~~~~~
-C:/Users/Tuyen laptop/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2057): warning: implicit conversion loses integer precision: 'int' to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
-  tmp1 = CCER_CCE_Set << (uint16_t)TIM_Channel;
-       ~ ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
-5 warnings generated.
 compiling stm32f10x_tim.c...
 linking...
 Program Size: Code=2880 RO-data=272 RW-data=0 ZI-data=1648  
-".\Objects\mcb bai 2.axf" - 0 Error(s), 18 Warning(s).
+".\Objects\mcb bai 2.axf" - 0 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
 
